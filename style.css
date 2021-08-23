@@ -71,8 +71,7 @@ body {
   padding-left: 20px;
 }
 
-.resume .resume__header,
-.resume .resume__section {
+.resume .resume__header, .resume .resume__section {
   font-family: 'Open Sans', sans-serif;
   font-size: 0.95em;
 }
@@ -145,19 +144,20 @@ body {
 }
 
 .resume .info-socmed {
-    display: flex;
-    padding-right: 0.25em;
-    font-size: 1.75em;
-    align-items: center;
+  display: flex;
+  padding-right: 0.25em;
+  font-size: 1.75em;
+  align-items: center;
 }
 
-.resume .info-socmed img{
-    width: 18px;
-    margin-right: .75rem;
-    margin-bottom: .5rem;
+.resume .info-socmed img, .resume .info-socmed i {
+  width: 16px;
+  color: #001938;
+  margin-right: .75rem;
+  margin-bottom: .5rem;
 }
 
-.resume .info-socmed span{
+.resume .info-socmed span {
   margin: 0 1rem .5rem 0;
   font-size: .75em;
 }
@@ -180,8 +180,7 @@ body {
   line-height: 1.5;
 }
 
-.resume .xp-univ span,
-.resume .xp-univ small {
+.resume .xp-univ span, .resume .xp-univ small {
   font-weight: 400;
 }
 
@@ -204,8 +203,7 @@ body {
   margin-bottom: 0;
 }
 
-.resume .xp-job,
-.resume .xp-job a {
+.resume .xp-job, .resume .xp-job a {
   font-size: 1.1em;
   font-weight: 600;
   line-height: 1.25;
@@ -221,8 +219,7 @@ body {
   outline: 0;
 }
 
-.resume .xp-job span,
-.resume .xp-job small {
+.resume .xp-job span, .resume .xp-job small {
   font-weight: 400;
 }
 
@@ -245,13 +242,13 @@ body {
   margin-bottom: 0;
 }
 
-.resume .extra .icon-skills{
+.resume .extra .icon-skills {
   display: flex;
 }
 
 .resume .extra .icon-skills img {
-    width: 25%;
-    margin: 0 1.5rem 1.25rem 0;
+  width: 25%;
+  margin: 0 1.5rem 1.25rem 0;
 }
 
 .resume .extra-info small {
@@ -260,8 +257,7 @@ body {
   font-size: 0.7em;
 }
 
-.resume .extra-details,
-.resume .extra-details__progress {
+.resume .extra-details, .resume .extra-details__progress {
   border-radius: 6px;
 }
 
@@ -297,7 +293,6 @@ body {
   body {
     min-width: initial !important;
   }
-
   .btn-print {
     display: none;
   }
