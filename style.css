@@ -196,7 +196,11 @@ body {
 }
 
 .resume .xp-item {
-  margin-bottom: 2em;
+  margin-bottom: 2rem;
+}
+
+.resume .xp-item .xp-detail {
+  line-height: 1.25rem;
 }
 
 .resume .xp-item:last-child {
@@ -293,6 +297,7 @@ body {
   body {
     min-width: initial !important;
   }
+
   .btn-print {
     display: none;
   }
